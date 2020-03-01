@@ -4,22 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SAKM</title>
-    
+    <link href="https://fonts.googleapis.com/css?family=Shojumaru&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
     <!--Navbar is start here-->
-    <nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-light  sticky-top">
         
-        <a class="navbar-brand " href="#"><h1 class="text-info">SAKM</h1> </a>
+        <a class="navbar-brand " href="index.html"><h1><span class="logo-s">S</span>AKM</h1> </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav  mx-auto">
-            <li class="nav-item active">
+            <li class="nav-item active active-menu">
               <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
@@ -49,183 +49,261 @@
 
 
 
-       <!--Carusel is start here-->
+      <div class="page-wrapper">
+         <!--Carusel is start here-->
        
-        <div id="carouselExampleIndicators" class="carousel slide orange-bg" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active  ">
-            <div class="row">
-                
-                <div class="col-12  ">
-                    <img class="d-flex w-100 " src="images/mahmud1.1.jpg" alt="First slide">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>SAKM</h5>
-                        <p>...</p>
-                      </div>
-                </div>
-            </div>
-            
-          </div>
-          <div class="carousel-item">
-              <div class="row justify-content-center d-flex">
-                  <div class="col-12 ">
-                      
-                    <img class="d-flex w-100 " src="images/mahmud1.1.jpg" alt="Second slide">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>...</h5>
-                        <p>...</p>
-                    </div>
+         <div id="carouselExampleIndicators" class="carousel slide orange-bg" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active  ">
+              <div class="row">
+                  
+                  <div class="col-12  ">
+                      <img class="d-flex w-100 " src="images/mahmud1.1.jpg" alt="First slide">
+                      <div class="carousel-caption d-none d-md-block">
+                          <h5>SAKM</h5>
+                          <p>...</p>
+                        </div>
                   </div>
               </div>
-          </div>
-          <div class="carousel-item">
-            <div class="row justify-content-center d-flex">
-                <div class="col-md-12 ">
-                    <img class="d-block w-100 " src="images/mahmud1.1.jpg" alt="Third slide">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>...</h5>
-                        <p>...</p>
+              
+            </div>
+            <div class="carousel-item">
+                <div class="row justify-content-center d-flex">
+                    <div class="col-12 ">
+                        
+                      <img class="d-flex w-100 " src="images/mahmud1.1.jpg" alt="Second slide">
+                      <div class="carousel-caption d-none d-md-block">
+                          <h5>...</h5>
+                          <p>...</p>
                       </div>
+                    </div>
                 </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row justify-content-center d-flex">
+                  <div class="col-md-12 ">
+                      <img class="d-block w-100 " src="images/mahmud1.1.jpg" alt="Third slide">
+                      <div class="carousel-caption d-none d-md-block">
+                          <h5>...</h5>
+                          <p>...</p>
+                        </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+  
+  
+        
+          <!--Carusel is end here-->
+
+        <section class="container">
+          <div class="row "> 
+          <div class="col-4 col-md-6 col-sm-12 ">
+            <div class="card  text-dark"  id="cardAfterSlider">
+              <div class="card-icon-wrapper">
+                <i class="fa fa-facebook"></i>
+              </div>
+              <div class="card-body">
+                
+                <p class="card-text"></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-4 col-md-6 col-sm-12">
+            <div class="card  text-dark"  id="cardAfterSlider">
+              <div class="card-icon-wrapper">
+                <i class="fa fa-facebook"></i>
+              </div>
+              <div class="card-body">
+                
+                <p class="card-text"></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-4 col-md-6 col-sm-12 ">
+            <div class="card  text-dark"  id="cardAfterSlider">
+              <div class="card-icon-wrapper">
+                <i class="fa fa-facebook"></i>
+              </div>
+              <div class="card-body">
+                
+                <p class="card-text"></p>
+              </div>
             </div>
           </div>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
+        </section>
+        <!--card section is start here-->
+      <section class="container pnc-bg">
+          <div class="row">
+              <div class="col-4 col-md-6 col-lg-4 col-sm-12 ">
+                    <div class="card border-primary">
+                      <div class="card-header bg-primary">
+                          LATEST NEWS
+                      </div>
+                      <ul class="list-group list-group-flush scroll">
+                        <li class="list-group-item">Cras justo odio</li>
+                        <li class="list-group-item">Dapibus ac facilisis in</li>
+                        <li class="list-group-item">Vestibulum at eros</li>
+                        <li class="list-group-item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum laudantium libero, officia minus consectetur atque quas odit excepturi sit! Nisi, molestias illum. Necessitatibus illo ratione adipisci blanditiis fugit deserunt veniam.</li>
+                        <li class="list-group-item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio quibusdam, veniam modi dicta fuga odit sunt ad reprehenderit doloremque deleniti deserunt at labore accusamus praesentium autem, harum delectus tempore sint.</li>
+                        <li class="list-group-item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, doloribus minima aliquam, vero eum veniam libero dolorum possimus itaque quam repellat unde est, quaerat dolore vitae. Cumque maiores natus ducimus?</li>
+                        <li class="list-group-item">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi, quo laboriosam dignissimos nostrum tempora aut cumque, inventore placeat, aspernatur eum rerum fugit sequi blanditiis voluptatem! Quia doloremque exercitationem nulla eum?</li>
+                        <li class="list-group-item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat maiores aut eius quidem. Eveniet illo esse blanditiis reiciendis veritatis at fugit tempore voluptate voluptatibus doloribus omnis consectetur, iusto sint sed!</li>
+                        <li class="list-group-item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ad quos repellat, nostrum aspernatur tenetur tempora esse explicabo id consequatur amet expedita fuga consequuntur commodi praesentium quibusdam. Enim, non modi.
+                            <button>click me</button>
+                        </li>
+                      </ul>
+                    </div>
+              </div>
+              <div class=" col-4 col-md-6 col-lg-4 col-sm-12">
+                  <div class="card border-primary">
+                      <div class="card-header bg-primary">
+                          EVENTS
+                      </div>
+                      <ul class="list-group list-group-flush scroll">
+                          <li class="list-group-item">Cras justo odio</li>
+                          <li class="list-group-item">Dapibus ac facilisis in</li>
+                          <li class="list-group-item">Vestibulum at eros</li>
+                          <li class="list-group-item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum laudantium libero, officia minus consectetur atque quas odit excepturi sit! Nisi, molestias illum. Necessitatibus illo ratione adipisci blanditiis fugit deserunt veniam.</li>
+                          <li class="list-group-item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio quibusdam, veniam modi dicta fuga odit sunt ad reprehenderit doloremque deleniti deserunt at labore accusamus praesentium autem, harum delectus tempore sint.</li>
+                          <li class="list-group-item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, doloribus minima aliquam, vero eum veniam libero dolorum possimus itaque quam repellat unde est, quaerat dolore vitae. Cumque maiores natus ducimus?</li>
+                          <li class="list-group-item">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi, quo laboriosam dignissimos nostrum tempora aut cumque, inventore placeat, aspernatur eum rerum fugit sequi blanditiis voluptatem! Quia doloremque exercitationem nulla eum?</li>
+                          <li class="list-group-item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat maiores aut eius quidem. Eveniet illo esse blanditiis reiciendis veritatis at fugit tempore voluptate voluptatibus doloribus omnis consectetur, iusto sint sed!</li>
+                          <li class="list-group-item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ad quos repellat, nostrum aspernatur tenetur tempora esse explicabo id consequatur amet expedita fuga consequuntur commodi praesentium quibusdam. Enim, non modi.
+                              <button>click me</button>
+                          </li>
+                        </ul>
+                    </div>
+              </div>
+              <div class="col-4 col-md-6 col-lg-4 col-sm-12">
+                  <div class="card border-primary">
+                      <div class="card-header bg-primary">
+                          NOTICE BOARD
+                      </div>
+                      <ul class="list-group list-group-flush scroll">
+                          <li class="list-group-item">Cras justo odio</li>
+                          <li class="list-group-item">Dapibus ac facilisis in</li>
+                          <li class="list-group-item">Vestibulum at eros</li>
+                          <li class="list-group-item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum laudantium libero, officia minus consectetur atque quas odit excepturi sit! Nisi, molestias illum. Necessitatibus illo ratione adipisci blanditiis fugit deserunt veniam.</li>
+                          <li class="list-group-item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio quibusdam, veniam modi dicta fuga odit sunt ad reprehenderit doloremque deleniti deserunt at labore accusamus praesentium autem, harum delectus tempore sint.</li>
+                          <li class="list-group-item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, doloribus minima aliquam, vero eum veniam libero dolorum possimus itaque quam repellat unde est, quaerat dolore vitae. Cumque maiores natus ducimus?</li>
+                          <li class="list-group-item">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi, quo laboriosam dignissimos nostrum tempora aut cumque, inventore placeat, aspernatur eum rerum fugit sequi blanditiis voluptatem! Quia doloremque exercitationem nulla eum?</li>
+                          <li class="list-group-item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat maiores aut eius quidem. Eveniet illo esse blanditiis reiciendis veritatis at fugit tempore voluptate voluptatibus doloribus omnis consectetur, iusto sint sed!</li>
+                          <li class="list-group-item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ad quos repellat, nostrum aspernatur tenetur tempora esse explicabo id consequatur amet expedita fuga consequuntur commodi praesentium quibusdam. Enim, non modi.
+                              <button>click me</button>
+                          </li>
+                        </ul>
+                    </div>
+              </div>
+          </div>
+      </section>
+      <!--card section is end here-->
+  
+  
+       <!--sponsered section is start here-->
+  
+      <section class="container background-sponsered">
+          <h1 class=" mb-5 text-center text-success display-3">Sponsored by</h1>
+          <div class="row">
+              <div class=" col-4 col-md-6  col-sm-12">
+                  <div class="container text-dark">
+                      <h2 >Md Mahbub SK</h2>
+                      <p >Designer</p>
+                  </div>
+                  <img src="images/IMG_5035.JPG" class=" width img-fluid" alt="">
+              </div>
+              <div class=" col-4 col-md-6  col-sm-12">
+                  <div class="container text-dark">
+                      <h2 >Mahmud Bin khurshid</h2>
+                      <p>photographer</p>
+                  </div>
+                  <img src="images/mahmud-p.1.jpg" class=" width img-fluid" alt="">
+              </div>
+              <div class=" col-4 col-md-6  col-sm-12">
+                  <div class="container text-dark">
+                      <h1>Md Hasan Sheikh</h1>
+                      <p >technical supporter</p>
+                  </div>
+                  
+                  <img src="images/hasan2.JPG"  class=" width img-fluid" alt="" >
+              </div>
+          </div>
+      </section>
+  <!--sponsered section is end here-->
       </div>
-
-
-      
-        <!--Carusel is end here-->
-
-      <!--card section is start here-->
-    <section class="container pnc-bg">
-        <div class="row">
-            <div class="col-md-4">
-                  <div class="card border-primary" style="width: 18rem; height:600px">
-                    <div class="card-header bg-primary">
-                        LATEST NEWS
-                    </div>
-                    <ul class="list-group list-group-flush scroll">
-                      <li class="list-group-item">Cras justo odio</li>
-                      <li class="list-group-item">Dapibus ac facilisis in</li>
-                      <li class="list-group-item">Vestibulum at eros</li>
-                      <li class="list-group-item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum laudantium libero, officia minus consectetur atque quas odit excepturi sit! Nisi, molestias illum. Necessitatibus illo ratione adipisci blanditiis fugit deserunt veniam.</li>
-                      <li class="list-group-item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio quibusdam, veniam modi dicta fuga odit sunt ad reprehenderit doloremque deleniti deserunt at labore accusamus praesentium autem, harum delectus tempore sint.</li>
-                      <li class="list-group-item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, doloribus minima aliquam, vero eum veniam libero dolorum possimus itaque quam repellat unde est, quaerat dolore vitae. Cumque maiores natus ducimus?</li>
-                      <li class="list-group-item">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi, quo laboriosam dignissimos nostrum tempora aut cumque, inventore placeat, aspernatur eum rerum fugit sequi blanditiis voluptatem! Quia doloremque exercitationem nulla eum?</li>
-                      <li class="list-group-item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat maiores aut eius quidem. Eveniet illo esse blanditiis reiciendis veritatis at fugit tempore voluptate voluptatibus doloribus omnis consectetur, iusto sint sed!</li>
-                      <li class="list-group-item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ad quos repellat, nostrum aspernatur tenetur tempora esse explicabo id consequatur amet expedita fuga consequuntur commodi praesentium quibusdam. Enim, non modi.
-                          <button>click me</button>
-                      </li>
-                    </ul>
-                  </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card border-primary" style="width: 18rem; height: 600px;">
-                    <div class="card-header bg-primary">
-                        EVENTS
-                    </div>
-                    <ul class="list-group list-group-flush scroll">
-                        <li class="list-group-item">Cras justo odio</li>
-                        <li class="list-group-item">Dapibus ac facilisis in</li>
-                        <li class="list-group-item">Vestibulum at eros</li>
-                        <li class="list-group-item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum laudantium libero, officia minus consectetur atque quas odit excepturi sit! Nisi, molestias illum. Necessitatibus illo ratione adipisci blanditiis fugit deserunt veniam.</li>
-                        <li class="list-group-item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio quibusdam, veniam modi dicta fuga odit sunt ad reprehenderit doloremque deleniti deserunt at labore accusamus praesentium autem, harum delectus tempore sint.</li>
-                        <li class="list-group-item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, doloribus minima aliquam, vero eum veniam libero dolorum possimus itaque quam repellat unde est, quaerat dolore vitae. Cumque maiores natus ducimus?</li>
-                        <li class="list-group-item">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi, quo laboriosam dignissimos nostrum tempora aut cumque, inventore placeat, aspernatur eum rerum fugit sequi blanditiis voluptatem! Quia doloremque exercitationem nulla eum?</li>
-                        <li class="list-group-item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat maiores aut eius quidem. Eveniet illo esse blanditiis reiciendis veritatis at fugit tempore voluptate voluptatibus doloribus omnis consectetur, iusto sint sed!</li>
-                        <li class="list-group-item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ad quos repellat, nostrum aspernatur tenetur tempora esse explicabo id consequatur amet expedita fuga consequuntur commodi praesentium quibusdam. Enim, non modi.
-                            <button>click me</button>
-                        </li>
-                      </ul>
-                  </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card border-primary" style="width: 18rem; height:600px">
-                    <div class="card-header bg-primary">
-                        NOTICE BOARD
-                    </div>
-                    <ul class="list-group list-group-flush scroll">
-                        <li class="list-group-item">Cras justo odio</li>
-                        <li class="list-group-item">Dapibus ac facilisis in</li>
-                        <li class="list-group-item">Vestibulum at eros</li>
-                        <li class="list-group-item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum laudantium libero, officia minus consectetur atque quas odit excepturi sit! Nisi, molestias illum. Necessitatibus illo ratione adipisci blanditiis fugit deserunt veniam.</li>
-                        <li class="list-group-item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio quibusdam, veniam modi dicta fuga odit sunt ad reprehenderit doloremque deleniti deserunt at labore accusamus praesentium autem, harum delectus tempore sint.</li>
-                        <li class="list-group-item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, doloribus minima aliquam, vero eum veniam libero dolorum possimus itaque quam repellat unde est, quaerat dolore vitae. Cumque maiores natus ducimus?</li>
-                        <li class="list-group-item">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi, quo laboriosam dignissimos nostrum tempora aut cumque, inventore placeat, aspernatur eum rerum fugit sequi blanditiis voluptatem! Quia doloremque exercitationem nulla eum?</li>
-                        <li class="list-group-item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat maiores aut eius quidem. Eveniet illo esse blanditiis reiciendis veritatis at fugit tempore voluptate voluptatibus doloribus omnis consectetur, iusto sint sed!</li>
-                        <li class="list-group-item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ad quos repellat, nostrum aspernatur tenetur tempora esse explicabo id consequatur amet expedita fuga consequuntur commodi praesentium quibusdam. Enim, non modi.
-                            <button>click me</button>
-                        </li>
-                      </ul>
-                  </div>
-            </div>
-        </div>
-    </section>
-    <!--card section is end here-->
-
-
-     <!--sponsered section is start here-->
-
-    <section class="background-sponsered">
-        <h1 class=" mb-5 text-center text-success display-3">Sponsored by</h1>
-        <div class="row">
-            <div class="col-4">
-                <div class="container text-light">
-                    <h1 >Md Mahbub SK</h1>
-                    <p >Designer</p>
-                </div>
-                <img src="images/mahbub3.1.jpg" class="rounded-circle width img-fluid" alt="">
-            </div>
-            <div class="col-4">
-                <div class="container text-light">
-                    <h2 >Mahmud Bin khurshid</h2>
-                    <p>photographer</p>
-                </div>
-                <img src="images/mahmud-p.jpg" class="rounded-circle width img-fluid" alt="">
-            </div>
-            <div class="col-4">
-                <div class="container text-light">
-                    <h1>Md Hasan SheiKh</h1>
-                    <p >technical supporter</p>
-                </div>
-                
-                <img src="images/hasan2.JPG"  class="rounded-circle width img-fluid" alt="" style="width: 320px; ">
-            </div>
-        </div>
-    </section>
-<!--sponsered section is end here-->
 
 
 <!--footer section is start here-->
 
 <footer>
-       <div class="container">
+       <div class="footer-content">
         <div class="row">
-          <div class="col-4">
-          <div class="">
-                  
-            <i class="fa fa-map-marker mt-5"  style="font-size:25px;  color:white">
-              <span>Hazrat Shah Ali Bagdadi (R.) Kamil M. A. Madrasha</span>
-              <p>Mirpur-1, Dhaka-1216</p>  
-            </i>
-            
+          <div class="footer-section  about col-sm-12 col-md-6   col-4 ">
+            <h1><span class="logo-s">S</span>AKM</h1>
+            <p>Hazrat Shah Ali Bagdadi (R.) Kamil M.A. Madrasha</p>
+            <p>Mirpur-1, Dhaka -1216</p>
+            <div class="contact">
+              <span > <i class="fa fa-phone"></i>&nbsp; 01701474888</span><br/>
+              <span > <i class="fa fa-envelope"></i>&nbsp;skmahbubkr786@gmail.com</span>
+            </div>
+            <div class="socials  mt-3">
+              <i class="fa fa-instagram d-inline-block"></i>
+              <i class="fa fa-instagram d-inline-block"></i>
+              <i class="fa fa-twitter d-inline-block"></i>
+              <i class="fa fa-youtube d-inline-block "></i>
+              <i class="fa fa-google d-inline-block"></i>
+            </div>
+          </div>
+          <div class="footer-section links col-sm-12  col-md-6  col-4">
+            <h2>Quick Links</h2><br/>
+            <ul class="link">
+              
+                <a href="index.html"><li>Home</li></a>
+                <a href="teachers.html"><li>teachers</li></a>
+                <a href="students-gallary.html"><li>students-gallary</li></a>
+                <a href="event.html"><li>Event</li></a>
+                <a href="admition.html"><li>Admition</li></a>
+              
+            </ul>
+
+          </div>
+          <div class="footer-section contact-form col-sm-12 col-md-12  col-4">
+            <h2>Contact Us</h2>
+            <form action="index.html">
+              <div class="input-group mb-3  w-25">
+                <input type="email" class="form-control form-control-sm" placeholder="Enter your Email"d>
+                <div class="input-group-append ">
+                  <span class="input-group-text" id="basic-addon2">@example.com</span>
+                </div>
+              </div>
+              <label >Why do you contact with us?</label>
+              <textarea class="form-control form-control-sm  w-25"  placeholder="Write your massege"></textarea>
+              <button type="submit" class="btn btn-outline-info mt-2 ">
+                <i class="fa fa-envelope"> &nbsp;</i>
+                send
+              </button>
+            </form>
           </div>
         </div>
        </div>
-      </div>
+       <div class="footer-bottom">
+        &copy; <span class="logo-s">S</span>AKM 2020 | All rights reserved. Designed by Md Mahbub SK
+       </div>
 </footer>
 
 
