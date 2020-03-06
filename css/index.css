@@ -126,10 +126,10 @@ footer{
 .link a li{
     transition:.5s;
     color:white;
-    text-decoration:none;
+   
 }
 .link a li:hover{
-    text-decoration: none;
+    text-decoration:none ;
     margin-left: 15px;
     
 }
