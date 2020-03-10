@@ -1,7 +1,7 @@
 
 body{
     overflow-x:hidden;
-    background:linear-gradient(to left,#8942a8,#ba3828);
+    
     height: 100%;
     font-family: 'Righteous', cursive;
     
@@ -12,7 +12,7 @@ body{
 }
 .navbar{
     opacity: 75%;
-    background:linear-gradient(to left,#8942a8,#ba3828);
+    background:linear-gradient(lightblue,white);
 }
 .container{
     margin-top:50px;
@@ -22,7 +22,9 @@ body{
 }
 
 /*photo section desing is start from here*/
-
+.page-wrap{
+    background:linear-gradient(white,lightblue);
+}
 
 .imgBox{
     overflow:hidden;
@@ -83,9 +85,9 @@ body{
 footer{
     height:600px;
     width:100%;
-    background:#303036;
+    background:linear-gradient(white,lightblue);
     margin-top:30px;
-    color:white;
+    color:black;
     position: relative;
 }
 
@@ -107,7 +109,7 @@ footer{
 }
 .link a li{
     transition:.5s;
-    color:white;
+    color:black;
     text-decoration:none;
 }
 .link a li:hover{
@@ -144,7 +146,7 @@ footer{
     footer{
         height:620px;
         width:100%;
-        background:#303036;
+        
         margin-top:30px;
         color:white;
         position: relative;
@@ -169,7 +171,7 @@ footer{
     footer{
         height:900px;
         width:100%;
-        background:#303036;
+        
         margin-top:30px;
         color:white;
         position: relative;

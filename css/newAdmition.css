@@ -1,0 +1,135 @@
+
+body{
+    overflow-x:hidden;
+    font-family: 'Righteous', cursive;
+    height: 100%;
+    
+}
+.logo-s{
+    font-family: 'Shojumaru';
+    color:blue;
+    
+}
+.navbar{
+    opacity: 75%;
+    background-color:white;
+}
+.container{
+    margin-top:50px;
+}
+.active{
+    border-bottom:1px solid cyan;
+}
+
+.page-wrapper{
+    
+    min-height: 100%;
+}
+
+/*footer section style is start here*/
+footer{
+   
+    height:620px;
+    width:100%;
+    background:linear-gradient(white,lightblue);
+    margin-top:30px;
+    color:black;
+    position: relative;
+}
+
+.footer-bottom{
+    background:#343a40;
+    color:#686868;
+    height:50px;
+    width:100%;
+    text-align:center;
+    position: absolute;
+    bottom:0;
+    left:0;
+    padding-top:15px;
+}
+
+
+.footer-section{
+    padding:20px 40px;
+}
+.link a li{
+    transition:.5s;
+    color:black;
+   
+}
+.link a li:hover{
+    text-decoration:none ;
+    margin-left: 15px;
+    
+}
+.socials .mx-3
+{
+    transition:.5s;
+    margin-left: 15px;
+}
+.socials .fa-instagram,
+.socials .fa-twitter,
+.socials .fa-youtube,
+.socials .fa-google{
+    margin-left: 20px;
+    padding:10px;
+    transition:.5s;
+}
+.socials .fa-facebook:hover,
+.socials .fa-instagram:hover,
+.socials .fa-twitter:hover,
+.socials .fa-youtube:hover,
+.socials .fa-google:hover
+{
+    font-size:25px;
+    color:cyan;
+}
+
+@media screen and (max-width:768px){
+   
+   
+    footer{
+        height:620px;
+        width:100%;
+        background:#303036;
+        margin-top:30px;
+        color:white;
+        position: relative;
+    }
+}
+@media screen and (max-width:576px){
+  
+  
+    
+    footer{
+        height:850px;
+        width:100%;
+        background:#303036;
+        margin-top:30px;
+        color:white;
+        position: relative;
+    }
+}
+@media screen and (max-width:360px){
+    
+    footer{
+        height:900px;
+        width:100%;
+        background:#303036;
+        margin-top:30px;
+        color:white;
+        position: relative;
+    }
+    .footer-bottom{
+        background:#343a40;
+        color:#686868;
+        height:80px;
+        width:100%;
+        text-align:center;
+        position: absolute;
+        bottom:0;
+        left:0;
+        padding:15px;
+    }
+}

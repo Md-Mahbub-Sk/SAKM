@@ -62,9 +62,9 @@ footer{
    
     height:620px;
     width:100%;
-    background:linear-gradient(to left,#76478ab6,#ba3828);
+    background:linear-gradient(white,lightblue);
     margin-top:30px;
-    color:white;
+    color:black;
     position: relative;
 }
 
@@ -86,7 +86,7 @@ footer{
 }
 .link a li{
     transition:.5s;
-    color:white;
+    color:black;
    
 }
 .link a li:hover{

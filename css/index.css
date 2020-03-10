@@ -15,7 +15,7 @@ body{
 }
 .navbar{
     opacity: 75%;
-    background:linear-gradient(to left,#76478ab6,#ba3828);
+    background:whitesmoke;
 }
 
 #navbar{
@@ -40,25 +40,36 @@ img{
     position:relative;
    
 }
+
 .card-icon-wrapper{
     height:150px;
     width:150px;
-    background:linear-gradient(to left,#8942a8,#ba3828);
     
-    border-radius:50%;
+    
+    
     position: absolute;
     left:105px;
     top:-50px;
 
 }
-.fa-facebook{
-    font-size:50px;
-    position: absolute;
-    left:58px;
-    top:40px;
-    color:blue;
+.card-icon-wrapper i{
+   
+    
+    font-size: 70px;
   
+    position: absolute;
+    left:40px;
+    top:15px;
+    color:black;
+    transition:.8s;
+    
 }
+#cardAfterSlider:hover .card-icon-wrapper i{
+    color:rgb(54, 190, 236);
+    transform: rotate(360deg);
+    
+}
+
 
 .orange-bg{
    
@@ -77,6 +88,7 @@ img{
     text-align: justify;
     
 }
+
 .card{
     width:18 rem; 
     height:600px;
@@ -84,6 +96,22 @@ img{
 .scroll{
     overflow: scroll;
     
+}
+.nav-tabs{
+    padding:40px;
+    
+
+}
+
+.nav-tabs img{
+    width:25px;
+    height:25px;
+    text-align:center;
+}
+.nav-tabs a {
+    font-size:20px;
+    color:black;
+    margin-left: 5px;
 }
 .width{
     width:600px;
@@ -100,8 +128,8 @@ img{
     height:50%;
     right:0;
     top:0;
-    background:linear-gradient(90deg,#76478ab6,#ba3828);
-    transition: .8s;
+    background:rgba(245, 245, 245, 0.76);
+    transition: 1s;
 }
 .img-wrapper:after{
     content: "";
@@ -110,8 +138,8 @@ img{
     height:50%;
     bottom:0;
     left:0;
-    background:linear-gradient(90deg,#76478ab6,#ba3828);
-    transition: .8s;
+    background:rgba(245, 245, 245, 0.76);
+    transition: 1s;
 }
 .img-wrapper:hover:before{
     height: 0%;
@@ -123,7 +151,7 @@ img{
 .background-sponsered{
     font-family: 'Bowlby One SC', cursive;
     margin-top:50px;
-    background:linear-gradient(90deg,#76478ab6,#ba3828);
+    background:linear-gradient(white,lightblue);
     
     position: relative;
    
@@ -134,14 +162,15 @@ footer{
    
     height:615px;
     width:100%;
-    background:linear-gradient(to left,#76478ab6,#ba3828);
+    background:linear-gradient(white,lightblue);
     margin-top:30px;
-    color:white;
+    color:black;
     position: relative;
 }
 
 .footer-bottom{
     background:#343a40;
+
     color:#686868;
     height:50px;
     width:100%;
@@ -158,7 +187,7 @@ footer{
 }
 .link a li{
     transition:.5s;
-    color:white;
+    color:black;
    
 }
 .link a li:hover{
@@ -198,21 +227,27 @@ footer{
     .card-icon-wrapper{
         height:150px;
         width:150px;
-       
+        
+        
         border-radius:50%;
         position: absolute;
-        left:75px;
-        top:-70px;
+        left:79px;
+        top:-50px;
     
     }
-    .fa-facebook{
-        font-size:50px;
+    .card-icon-wrapper i{
+        height:150px;
+        width:150px;
+        
+        font-size: 70px;
+        border-radius:50%;
         position: absolute;
-        left:58px;
-        top:40px;
-        color:#5677BF;
-      
+        left:40px;
+        top:15px;
+        color:black;
     }
+    
+    
 }
 @media screen and (max-width:768px){
     #cardAfterSlider{
@@ -222,23 +257,26 @@ footer{
        
     }
     .card-icon-wrapper{
-        height:100px;
-        width:100px;
+        height:150px;
+        width:150px;
+        
         
         border-radius:50%;
         position: absolute;
-        left:55px;
+        left:33px;
         top:-50px;
     
     }
-   
-    .fa-facebook{
-        font-size:50px;
+    .card-icon-wrapper i{
+        height:150px;
+        width:150px;
+        
+        font-size: 70px;
+        border-radius:50%;
         position: absolute;
-        left:35px;
-        top:20px;
-        color:#5677BF;
-      
+        left:40px;
+        top:15px;
+        color:black;
     }
     footer{
         height:620px;
@@ -258,23 +296,26 @@ footer{
        
     }
     .card-icon-wrapper{
-        height:100px;
-        width:100px;
-       
+        height:150px;
+        width:150px;
+        
+        
         border-radius:50%;
         position: absolute;
-        left:209px;
+        left:188px;
         top:-50px;
     
     }
-    
-    .fa-facebook{
-        font-size:50px;
+    .card-icon-wrapper i{
+        height:150px;
+        width:150px;
+        
+        font-size: 70px;
+        border-radius:50%;
         position: absolute;
-        left:35px;
-        top:20px;
-        color:#5677BF;
-      
+        left:40px;
+        top:15px;
+        color:black;
     }
     footer{
         height:850px;
@@ -294,23 +335,26 @@ footer{
        
     }
     .card-icon-wrapper{
-        height:100px;
-        width:100px;
-       
+        height:150px;
+        width:150px;
+        
+        
         border-radius:50%;
         position: absolute;
-        left:124px;
+        left:101px;
         top:-50px;
     
     }
-    
-    .fa-facebook{
-        font-size:50px;
+    .card-icon-wrapper i{
+        height:150px;
+        width:150px;
+        
+        font-size: 70px;
+        border-radius:50%;
         position: absolute;
-        left:35px;
-        top:20px;
-        color:#5677BF;
-      
+        left:40px;
+        top:15px;
+        color:black;
     }
     footer{
         height:900px;
