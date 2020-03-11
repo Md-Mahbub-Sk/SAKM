@@ -22,8 +22,24 @@ body{
 }
 
 .page-wrapper{
-    
+    background:linear-gradient(white,lightblue);
     min-height: 100%;
+}
+.nav-tabs{
+    padding:40px;
+    
+
+}
+
+.nav-tabs img{
+    width:25px;
+    height:25px;
+    text-align:center;
+}
+.nav-tabs a {
+    font-size:20px;
+    color:black;
+    margin-left: 5px;
 }
 .img-wrap img{
     width:100px;
