@@ -83,7 +83,7 @@ body{
 
 /*footer section style is start here*/
 footer{
-    height:600px;
+    height:620px;
     width:100%;
     background:linear-gradient(white,lightblue);
     margin-top:30px;
@@ -141,39 +141,50 @@ footer{
 }
 /*responsive footer site*/
 
+
+
 @media screen and (max-width:768px){
-    
+   
     footer{
-        height:620px;
+        height:700px;
         width:100%;
-        
+        background:linear-gradient(white,lightblue);
         margin-top:30px;
-        color:white;
+        color:black;
         position: relative;
     }
+}
+@media screen and (max-width:730px){
+    footer{
+        height:900px;
+        width:100%;
+        background:linear-gradient(white,lightblue);
+        margin-top:30px;
+        color:black;
+        position: relative;
+    }
+    
 }
 @media screen and (max-width:576px){
-    
-    
-    footer{
-        height:850px;
-        width:100%;
-        background:#303036;
-        margin-top:30px;
-        color:white;
-        position: relative;
-    }
-}
-@media screen and (max-width:360px){
-  
-    
     
     footer{
         height:900px;
         width:100%;
-        
+        background:linear-gradient(white,lightblue);
         margin-top:30px;
-        color:white;
+        color:black;
+        position: relative;
+    }
+}
+
+@media screen and (max-width:360px){
+    
+    footer{
+        height:1000px;
+        width:100%;
+        background:linear-gradient(white,lightblue);
+        margin-top:30px;
+        color:black;
         position: relative;
     }
     .footer-bottom{
