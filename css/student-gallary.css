@@ -130,7 +130,7 @@ footer{
 .socials .fa-google:hover
 {
     font-size:25px;
-    color:cyan;
+    color:#00ffff;
 }
 
 @media screen and (max-width:768px){
